@@ -577,6 +577,30 @@
           "name": "8th Period"
         }
       ]
+    },
+    "beta-testing": {
+      "specific_dates": ["2025-07-27"],
+      "priority": 100,
+      "schedule": [
+        {
+          "start_hour": 23,
+          "start_min": 15,
+          "duration_min": 5,
+          "name": "First Bell"
+        },
+        {
+          "start_hour": 23,
+          "start_min": 20,
+          "duration_min": 10,
+          "name": "Warning Bell"
+        },
+        {
+          "start_hour": 23,
+          "start_min": 30,
+          "duration_min": 35,
+          "name": "1st Period"
+        }
+      ]
     }
   }
 }
