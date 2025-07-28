@@ -3,33 +3,9 @@
   "schedule": [
     {
       "start_hour": 22,
-      "start_min": 15,
-      "duration_min": 10,
-      "name": "First Bell"
-    },
-    {
-      "start_hour": 22,
-      "start_min": 25,
-      "duration_min": 1,
-      "name": "Warning Bell"
-    },
-    {
-      "start_hour": 22,
-      "start_min": 26,
-      "duration_min": 1,
-      "name": "1st Period"
-    }
-    {
-      "start_hour": 22,
-      "start_min": 27,
-      "duration_min": 1,
-      "name": "Transition"
-    }
-    {
-      "start_hour": 22,
-      "start_min": 28,
-      "duration_min": 45,
-      "name": "2nd Period"
+      "start_min": 35,
+      "duration_min": 15,
+      "name": "Test Period"
     }
   ]
 }
