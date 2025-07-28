@@ -1,11 +1,582 @@
 {
   "timezone_offset": -21600,
-  "schedule": [
-    {
-      "start_hour": 22,
-      "start_min": 35,
-      "duration_min": 10,
-      "name": "Test Period"
+  "default_schedule": "regular",
+  "schedules": {
+    "regular": {
+      "days": ["monday", "tuesday", "wednesday", "thursday", "friday"],
+      "priority": 5,
+      "schedule": [
+        {
+          "start_hour": 7,
+          "start_min": 35,
+          "duration_min": 14,
+          "name": "First Bell"
+        },
+        {
+          "start_hour": 7,
+          "start_min": 49,
+          "duration_min": 1,
+          "name": "Warning Bell"
+        },
+        {
+          "start_hour": 7,
+          "start_min": 50,
+          "duration_min": 49,
+          "name": "1st Period"
+        },
+        {
+          "start_hour": 8,
+          "start_min": 39,
+          "duration_min": 4,
+          "name": "Transition"
+        },
+        {
+          "start_hour": 8,
+          "start_min": 43,
+          "duration_min": 46,
+          "name": "2nd Period"
+        },
+        {
+          "start_hour": 9,
+          "start_min": 29,
+          "duration_min": 4,
+          "name": "Transition"
+        },
+        {
+          "start_hour": 9,
+          "start_min": 33,
+          "duration_min": 46,
+          "name": "3rd Period"
+        },
+        {
+          "start_hour": 10,
+          "start_min": 19,
+          "duration_min": 4,
+          "name": "Transition"
+        },
+        {
+          "start_hour": 10,
+          "start_min": 23,
+          "duration_min": 46,
+          "name": "4th Period"
+        },
+        {
+          "start_hour": 11,
+          "start_min": 9,
+          "duration_min": 4,
+          "name": "Transition"
+        },
+        {
+          "start_hour": 11,
+          "start_min": 13,
+          "duration_min": 46,
+          "name": "5th Period"
+        },
+        {
+          "start_hour": 11,
+          "start_min": 59,
+          "duration_min": 30,
+          "name": "Lunch"
+        },
+        {
+          "start_hour": 12,
+          "start_min": 29,
+          "duration_min": 4,
+          "name": "Transition"
+        },
+        {
+          "start_hour": 12,
+          "start_min": 33,
+          "duration_min": 46,
+          "name": "6th Period"
+        },
+        {
+          "start_hour": 13,
+          "start_min": 19,
+          "duration_min": 4,
+          "name": "Transition"
+        },
+        {
+          "start_hour": 13,
+          "start_min": 23,
+          "duration_min": 46,
+          "name": "7th Period"
+        },
+        {
+          "start_hour": 14,
+          "start_min": 9,
+          "duration_min": 4,
+          "name": "Transition"
+        },
+        {
+          "start_hour": 14,
+          "start_min": 13,
+          "duration_min": 47,
+          "name": "8th Period"
+        }
+      ]
+    },
+    "a_day": {
+      "days": ["monday", "wednesday", "friday"],
+      "priority": 6,
+      "schedule": [
+        {
+          "start_hour": 7,
+          "start_min": 35,
+          "duration_min": 14,
+          "name": "First Bell"
+        },
+        {
+          "start_hour": 7,
+          "start_min": 49,
+          "duration_min": 1,
+          "name": "Warning Bell"
+        },
+        {
+          "start_hour": 7,
+          "start_min": 50,
+          "duration_min": 49,
+          "name": "1st Period A"
+        },
+        {
+          "start_hour": 8,
+          "start_min": 39,
+          "duration_min": 4,
+          "name": "Transition"
+        },
+        {
+          "start_hour": 8,
+          "start_min": 43,
+          "duration_min": 46,
+          "name": "2nd Period A"
+        },
+        {
+          "start_hour": 9,
+          "start_min": 29,
+          "duration_min": 4,
+          "name": "Transition"
+        },
+        {
+          "start_hour": 9,
+          "start_min": 33,
+          "duration_min": 46,
+          "name": "3rd Period A"
+        },
+        {
+          "start_hour": 10,
+          "start_min": 19,
+          "duration_min": 4,
+          "name": "Transition"
+        },
+        {
+          "start_hour": 10,
+          "start_min": 23,
+          "duration_min": 46,
+          "name": "4th Period A"
+        },
+        {
+          "start_hour": 11,
+          "start_min": 9,
+          "duration_min": 4,
+          "name": "Transition"
+        },
+        {
+          "start_hour": 11,
+          "start_min": 13,
+          "duration_min": 46,
+          "name": "5th Period A"
+        },
+        {
+          "start_hour": 11,
+          "start_min": 59,
+          "duration_min": 30,
+          "name": "Lunch"
+        },
+        {
+          "start_hour": 12,
+          "start_min": 29,
+          "duration_min": 4,
+          "name": "Transition"
+        },
+        {
+          "start_hour": 12,
+          "start_min": 33,
+          "duration_min": 46,
+          "name": "6th Period A"
+        },
+        {
+          "start_hour": 13,
+          "start_min": 19,
+          "duration_min": 4,
+          "name": "Transition"
+        },
+        {
+          "start_hour": 13,
+          "start_min": 23,
+          "duration_min": 46,
+          "name": "7th Period A"
+        },
+        {
+          "start_hour": 14,
+          "start_min": 9,
+          "duration_min": 4,
+          "name": "Transition"
+        },
+        {
+          "start_hour": 14,
+          "start_min": 13,
+          "duration_min": 47,
+          "name": "8th Period A"
+        }
+      ]
+    },
+    "b_day": {
+      "days": ["tuesday", "thursday"],
+      "priority": 6,
+      "schedule": [
+        {
+          "start_hour": 7,
+          "start_min": 35,
+          "duration_min": 14,
+          "name": "First Bell"
+        },
+        {
+          "start_hour": 7,
+          "start_min": 49,
+          "duration_min": 1,
+          "name": "Warning Bell"
+        },
+        {
+          "start_hour": 7,
+          "start_min": 50,
+          "duration_min": 49,
+          "name": "1st Period B"
+        },
+        {
+          "start_hour": 8,
+          "start_min": 39,
+          "duration_min": 4,
+          "name": "Transition"
+        },
+        {
+          "start_hour": 8,
+          "start_min": 43,
+          "duration_min": 46,
+          "name": "2nd Period B"
+        },
+        {
+          "start_hour": 9,
+          "start_min": 29,
+          "duration_min": 4,
+          "name": "Transition"
+        },
+        {
+          "start_hour": 9,
+          "start_min": 33,
+          "duration_min": 46,
+          "name": "3rd Period B"
+        },
+        {
+          "start_hour": 10,
+          "start_min": 19,
+          "duration_min": 4,
+          "name": "Transition"
+        },
+        {
+          "start_hour": 10,
+          "start_min": 23,
+          "duration_min": 46,
+          "name": "4th Period B"
+        },
+        {
+          "start_hour": 11,
+          "start_min": 9,
+          "duration_min": 4,
+          "name": "Transition"
+        },
+        {
+          "start_hour": 11,
+          "start_min": 13,
+          "duration_min": 46,
+          "name": "5th Period B"
+        },
+        {
+          "start_hour": 11,
+          "start_min": 59,
+          "duration_min": 30,
+          "name": "Lunch"
+        },
+        {
+          "start_hour": 12,
+          "start_min": 29,
+          "duration_min": 4,
+          "name": "Transition"
+        },
+        {
+          "start_hour": 12,
+          "start_min": 33,
+          "duration_min": 46,
+          "name": "6th Period B"
+        },
+        {
+          "start_hour": 13,
+          "start_min": 19,
+          "duration_min": 4,
+          "name": "Transition"
+        },
+        {
+          "start_hour": 13,
+          "start_min": 23,
+          "duration_min": 46,
+          "name": "7th Period B"
+        },
+        {
+          "start_hour": 14,
+          "start_min": 9,
+          "duration_min": 4,
+          "name": "Transition"
+        },
+        {
+          "start_hour": 14,
+          "start_min": 13,
+          "duration_min": 47,
+          "name": "8th Period B"
+        }
+      ]
+    },
+    "half_day": {
+      "specific_dates": ["2024-12-20", "2024-05-15"],
+      "priority": 10,
+      "schedule": [
+        {
+          "start_hour": 7,
+          "start_min": 35,
+          "duration_min": 14,
+          "name": "First Bell"
+        },
+        {
+          "start_hour": 7,
+          "start_min": 49,
+          "duration_min": 1,
+          "name": "Warning Bell"
+        },
+        {
+          "start_hour": 7,
+          "start_min": 50,
+          "duration_min": 25,
+          "name": "1st Period"
+        },
+        {
+          "start_hour": 8,
+          "start_min": 15,
+          "duration_min": 3,
+          "name": "Transition"
+        },
+        {
+          "start_hour": 8,
+          "start_min": 18,
+          "duration_min": 25,
+          "name": "2nd Period"
+        },
+        {
+          "start_hour": 8,
+          "start_min": 43,
+          "duration_min": 3,
+          "name": "Transition"
+        },
+        {
+          "start_hour": 8,
+          "start_min": 46,
+          "duration_min": 25,
+          "name": "3rd Period"
+        },
+        {
+          "start_hour": 9,
+          "start_min": 11,
+          "duration_min": 3,
+          "name": "Transition"
+        },
+        {
+          "start_hour": 9,
+          "start_min": 14,
+          "duration_min": 25,
+          "name": "4th Period"
+        },
+        {
+          "start_hour": 9,
+          "start_min": 39,
+          "duration_min": 3,
+          "name": "Transition"
+        },
+        {
+          "start_hour": 9,
+          "start_min": 42,
+          "duration_min": 25,
+          "name": "5th Period"
+        },
+        {
+          "start_hour": 10,
+          "start_min": 7,
+          "duration_min": 3,
+          "name": "Transition"
+        },
+        {
+          "start_hour": 10,
+          "start_min": 10,
+          "duration_min": 25,
+          "name": "6th Period"
+        },
+        {
+          "start_hour": 10,
+          "start_min": 35,
+          "duration_min": 3,
+          "name": "Transition"
+        },
+        {
+          "start_hour": 10,
+          "start_min": 38,
+          "duration_min": 25,
+          "name": "7th Period"
+        },
+        {
+          "start_hour": 11,
+          "start_min": 3,
+          "duration_min": 3,
+          "name": "Transition"
+        },
+        {
+          "start_hour": 11,
+          "start_min": 6,
+          "duration_min": 25,
+          "name": "8th Period"
+        }
+      ]
+    },
+    "assembly": {
+      "specific_dates": ["2024-10-15", "2024-03-12"],
+      "priority": 10,
+      "schedule": [
+        {
+          "start_hour": 7,
+          "start_min": 35,
+          "duration_min": 14,
+          "name": "First Bell"
+        },
+        {
+          "start_hour": 7,
+          "start_min": 49,
+          "duration_min": 1,
+          "name": "Warning Bell"
+        },
+        {
+          "start_hour": 7,
+          "start_min": 50,
+          "duration_min": 35,
+          "name": "1st Period"
+        },
+        {
+          "start_hour": 8,
+          "start_min": 25,
+          "duration_min": 4,
+          "name": "Transition"
+        },
+        {
+          "start_hour": 8,
+          "start_min": 29,
+          "duration_min": 35,
+          "name": "2nd Period"
+        },
+        {
+          "start_hour": 9,
+          "start_min": 4,
+          "duration_min": 4,
+          "name": "Transition"
+        },
+        {
+          "start_hour": 9,
+          "start_min": 8,
+          "duration_min": 35,
+          "name": "3rd Period"
+        },
+        {
+          "start_hour": 9,
+          "start_min": 43,
+          "duration_min": 4,
+          "name": "Transition"
+        },
+        {
+          "start_hour": 9,
+          "start_min": 47,
+          "duration_min": 60,
+          "name": "Assembly"
+        },
+        {
+          "start_hour": 10,
+          "start_min": 47,
+          "duration_min": 4,
+          "name": "Transition"
+        },
+        {
+          "start_hour": 10,
+          "start_min": 51,
+          "duration_min": 35,
+          "name": "4th Period"
+        },
+        {
+          "start_hour": 11,
+          "start_min": 26,
+          "duration_min": 4,
+          "name": "Transition"
+        },
+        {
+          "start_hour": 11,
+          "start_min": 30,
+          "duration_min": 35,
+          "name": "5th Period"
+        },
+        {
+          "start_hour": 12,
+          "start_min": 5,
+          "duration_min": 30,
+          "name": "Lunch"
+        },
+        {
+          "start_hour": 12,
+          "start_min": 35,
+          "duration_min": 4,
+          "name": "Transition"
+        },
+        {
+          "start_hour": 12,
+          "start_min": 39,
+          "duration_min": 35,
+          "name": "6th Period"
+        },
+        {
+          "start_hour": 13,
+          "start_min": 14,
+          "duration_min": 4,
+          "name": "Transition"
+        },
+        {
+          "start_hour": 13,
+          "start_min": 18,
+          "duration_min": 35,
+          "name": "7th Period"
+        },
+        {
+          "start_hour": 13,
+          "start_min": 53,
+          "duration_min": 4,
+          "name": "Transition"
+        },
+        {
+          "start_hour": 13,
+          "start_min": 57,
+          "duration_min": 35,
+          "name": "8th Period"
+        }
+      ]
     }
-  ]
+  }
 }
