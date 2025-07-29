@@ -584,7 +584,7 @@
       "schedule": [
         {
           "start_hour": 15,
-          "start_min": 00,
+          "start_min": 0,
           "duration_min": 120,
           "name": "Open House"
         }
