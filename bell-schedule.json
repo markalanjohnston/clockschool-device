@@ -10,13 +10,109 @@
         "thursday",
         "friday"
       ],
-      "priority": 5,
+      "priority": 1,
       "schedule": [
         {
-          "start_hour": 15,
-          "start_min": 0,
-          "duration_min": 120,
-          "name": "Open House"
+          "start_hour": 7,
+          "start_min": 35,
+          "duration_min": 10,
+          "name": "First Bell"
+        },
+        {
+          "start_hour": 7,
+          "start_min": 45,
+          "duration_min": 51,
+          "name": "1st Period"
+        },
+        {
+          "start_hour": 8,
+          "start_min": 36,
+          "duration_min": 4,
+          "name": "Transition"
+        },
+        {
+          "start_hour": 8,
+          "start_min": 40,
+          "duration_min": 46,
+          "name": "2nd Period"
+        },
+        {
+          "start_hour": 9,
+          "start_min": 26,
+          "duration_min": 4,
+          "name": "Transition"
+        },
+        {
+          "start_hour": 9,
+          "start_min": 30,
+          "duration_min": 46,
+          "name": "3rd Period"
+        },
+        {
+          "start_hour": 10,
+          "start_min": 16,
+          "duration_min": 4,
+          "name": "Transition"
+        },
+        {
+          "start_hour": 10,
+          "start_min": 20,
+          "duration_min": 46,
+          "name": "4th Period"
+        },
+        {
+          "start_hour": 11,
+          "start_min": 6,
+          "duration_min": 4,
+          "name": "Transition"
+        },
+        {
+          "start_hour": 11,
+          "start_min": 10,
+          "duration_min": 46,
+          "name": "5th Period"
+        },
+        {
+          "start_hour": 11,
+          "start_min": 56,
+          "duration_min": 30,
+          "name": "Lunch"
+        },
+        {
+          "start_hour": 12,
+          "start_min": 26,
+          "duration_min": 4,
+          "name": "Transition"
+        },
+        {
+          "start_hour": 12,
+          "start_min": 30,
+          "duration_min": 46,
+          "name": "6th Period"
+        },
+        {
+          "start_hour": 13,
+          "start_min": 16,
+          "duration_min": 4,
+          "name": "Transition"
+        },
+        {
+          "start_hour": 13,
+          "start_min": 20,
+          "duration_min": 46,
+          "name": "7th Period"
+        },
+        {
+          "start_hour": 14,
+          "start_min": 6,
+          "duration_min": 4,
+          "name": "Transition"
+        },
+        {
+          "start_hour": 14,
+          "start_min": 10,
+          "duration_min": 50,
+          "name": "8th Period"
         }
       ]
     }
